@@ -1,0 +1,66 @@
+.bgWhite {
+  box-shadow: 0px 3px 6px 0px #a57575;
+}
+
+.title {
+  font-weight: 600;
+  margin-top: 20px;
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+
+.customBtn {
+  border-radius: 0px;
+  padding: 10px;
+
+}
+
+form input {
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+}
+Copy code
+.verify {
+  position: relative;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  background: url('../images/Kashish.jpg') no-repeat center center fixed;
+  background-size: cover;
+  color: rgb(219, 121, 121);
+  text-align: center;
+  display: flex;
+  padding: 20px;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Apply the filter only to the background image */
+.verify::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: url('../images/Kashish.jpg') no-repeat center center fixed;
+  background-size: cover;
+  filter: brightness(0.7) saturate(150%); /* Adjust brightness and saturation to achieve the desired effect */
+}
+
+.value-container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border: 3px solid white;
+  padding: 30px;
+  box-shadow: 1ch;
+  border-radius: 10px;
+  background-origin: padding-box;
+  background: rgba(55, 85, 218, 0.952);
+}

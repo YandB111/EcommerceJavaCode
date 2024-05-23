@@ -1,0 +1,21 @@
+/* Card.css */
+.card {
+    border: 1px solid #ddd;
+    padding: 12px;
+    margin: 5px;
+    width: 300px; /* Adjust the width as needed */
+    height: 300px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    /* background-color:#3C280D; */
+    /* background-image: url(../images/bubbles.jpg); */
+    /* background-size: cover; */
+    
+
+  }
+  .cardButton{
+    background-color: black;
+  }
+  .title{
+    color: antiquewhite;
+  }
+  
